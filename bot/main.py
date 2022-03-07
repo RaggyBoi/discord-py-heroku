@@ -768,4 +768,4 @@ async def on_command_error(ctx, error):
 
 
 
-client.run('OTUwNDMwOTgxMTYzMjEyODgw.YiYz1A.qxct0PDrEmX8Y9epRkGxRwd18jo')
+client.run(os.getenv('token'))
